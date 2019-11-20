@@ -1,8 +1,8 @@
-@-moz-viewport {width: device-width; scale: 1;}
-@-ms-viewport {width: device-width; scale: 1;}
-@-o-viewport {width: device-width; scale: 1;}
-@-webkit-viewport {width: device-width; scale: 1;}
-@viewport {width: device-width; scale: 1;}
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
 
 html {
   box-sizing: border-box;
@@ -10,7 +10,6 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-
 }
 
 *, *::before, *::after {
@@ -42,54 +41,53 @@ img {
 
 @media only screen and (min-width: 25em) {
 
-.dino{
-  width: 50%;
-}
+  .dino {
+    width: 50%;
+  }
 
-.dino:nth-child(2) {
-  width: 50%;
-  display: block;
+  .dino:nth-child(2) {
+    width: 50%;
+    display: block;
+  }
 
-}
-
-.dino:nth-child(4) {
-  display: block;
-  width:50%;
- }
+  .dino:nth-child(4) {
+    display: block;
+    width: 50%;
+  }
 
 }
 
 @media only screen and (min-width: 38em) {
 
-.dino{
-  display: block;
-  width: 33%;
-}
+  .dino {
+    display: block;
+    width: 33%;
+  }
 
-.dino:nth-child(2) {
-  display: block;
-  width: 33%;
-}
+  .dino:nth-child(2) {
+    display: block;
+    width: 33%;
+  }
 
-.dino:nth-child(4) {
-  display: block;
-  width: 33%;
-}
+  .dino:nth-child(4) {
+    display: block;
+    width: 33%;
+  }
 
-.dino:nth-child(3) {
-  display: block;
-  width: 33%;
-}
+  .dino:nth-child(3) {
+    display: block;
+    width: 33%;
+  }
 
-.dino:first-child {
-  display: none;
- }
+  .dino:first-child {
+    display: none;
+  }
 
 }
 
 @media only screen and (min-width: 60em) {
 
-  .dino{
+  .dino {
     display: block;
     width: 25%;
   }
@@ -109,9 +107,9 @@ img {
     width: 25%;
   }
 
-  .dino-first-child {
-    display: none;
+  .dino:first-child {
+    display: block;
     width: 25%;
-   }
-
   }
+
+}
